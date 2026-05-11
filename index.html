@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocGenAI</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body class="m-0">
+    <!-- Header section -->
+    <header class=" bg-black sticky top-0 px-6 ">
+        <nav class="flex justify-between items-center max-w-7xl mx-auto py-6">
+            <div class="flex items-center justify-between gap-3 ">
+                <img src="./assets/images/docgen-ai-logo.svg" alt="Logo" class="size-9">
+                <h1 class=" font-extrabold text-xl md:text-xl text-white">DocGenAI</h1>
+            </div>
+
+            <div class="hidden gap-6 text-gray-400 text-sm font-bold md:flex">
+                <a href="#">How It Works</a>
+                <a href="#">Documents</a>
+                <a href="#">Pricing</a>
+            </div>
+
+
+            <div class="flex justify-center items-center gap-8">
+                <button class="text-white font-bold">Sign In</button>
+                <button class="bg-red-500 py-2 px-4 rounded-xl font-bold text-white">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main class="bg-black ">
+        <!-- Hero section -->
+        <section class="grid  max-w-7xl mx-auto px-6 py-20 md:grid-cols-2 md:py-40 items-center 2xl:px-0">
+            <div class="flex flex-col gap-10">
+                <div
+                    class=" w-fit inline-flex items-center gap-2 border border-red-950 px-5 py-2 rounded-full text-red-600 mb-8">
+                    <span class="w-2 h-2 bg-red-600 rounded-full"></span>
+                    <p>Trusted by 10,000+ companies</p>
+                </div>
+                <h1 class="text-white font-extrabold text-5xl sm:text-6xl  lg:text-7xl leading-tight -mt-8 ">Legal Docs
+                    <span class="text-red-500"> <br>in Minutes</span>
+                </h1>
+                <p class="text-gray-400 text-lg md:max-w-md md:text-xl">Generate compliant NDAs, contracts, and policies
+                    with AI. Fast,
+                    affordable, and simple—no lawyer
+                    required.</p>
+                <div class="flex flex-col md:flex-row font-bold text-white gap-4">
+                    <button class="bg-red-500 py-3 px-8 rounded-2xl">Start Free</button>
+                    <button class="border border-red-950 py-3 px-8 rounded-2xl ">View Samples</button>
+                </div>
+            </div>
+            <div
+                class=" hidden md:flex bg-linear-to-br from-[#2f0805] via-[#1f0c0a] to-[#23252c] border border-red-950 rounded-2xl flex-col py-20 items-center ">
+                <img src="./assets/images/docsbot.png" alt="Robot-pic" class="size-96 ">
+                <p class="text-gray-400 font-bold ">AI-Powered Document Generation</p>
+            </div>
+        </section>
+
+        <section class="grid gap-16 max-w-7xl mx-auto px-6 py-20 md:grid-cols-2 md:py-40 2xl:px-0">
+            <div class="grid grid-cols-1 gap-4">
+                <h1 class="text-white font-extrabold text-5xl sm:text-6xl  lg:text-7xl leading-tight mb-15">The Problem
+                </h1>
+
+                <div class="flex gap-6">
+                    <p class="text-4xl">💰</p>
+                    <div class="flex flex-col gap-4 pt-3">
+                        <strong class="text-white">Hiring lawyers is expensive</strong>
+                        <p class="text-gray-400">Legal services can cost thousands for simple documents</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-6">
+                    <p class="text-4xl">⏱️</p>
+                    <div class="flex flex-col gap-4 pt-3">
+                        <strong class="text-white">Legal documents take time</strong>
+                        <p class="text-gray-400">Traditional drafting takes weeks or months</p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <p class="text-4xl">📖</p>
+                    <div class="flex flex-col gap-4 pt-3">
+                        <strong class="text-white">Confusing legal language</strong>
+                        <p class="text-gray-400">Complex jargon makes documents hard to understand</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class=" flex flex-col gap-6 bg-linear-to-br from-[#2f0805] via-[#1f0c0a] to-[#23252c] px-8 py-12 rounded-2xl border-2 border-red-950">
+                <h1 class="text-4xl text-white font-extrabold">Our Solution</h1>
+                <p class="text-lg text-gray-400 ">Our AI creates clear, ready-to-use legal documents tailored to your
+                    business in minutes. No legal
+                    jargon. No confusion. Just documents you can understand and use immediately.</p>
+                <div class="flex flex-col gap-4">
+
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-circle-check text-orange-600 bg-white rounded-full mr-3"></i>
+                        <p class="text-white font-semibold">Save thousands on legal fees</p>
+
+                    </div>
+
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-circle-check text-orange-600 bg-white rounded-full mr-3"></i>
+                        <p class="text-white font-semibold">Get documents in minutes, not months</p>
+
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-circle-check text-orange-600 bg-white rounded-full mr-3"></i>
+                        <p class="text-white font-semibold">Clear, plain English language</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" flex flex-col max-w-7xl mx-auto px-6 py-20 gap-8 2xl:px-0">
+            <h1 class="text-white text-5xl font-extrabold text-center">How It Works</h1>
+            <p class="text-gray-400 text-lg text-center">Simple, intuitive, and fast. Three steps to your legal
+                documents.</p>
+
+            <div class=" grid gap-6 mt-12 md:grid-cols-3 ">
+                <div
+                    class="flex flex-col gap-6 bg-zinc-900 p-8 rounded-2xl border-2 border-red-950 hover:bg-zinc-800 transition:color duration-300">
+                    <span class="text-red-950 text-6xl font-extrabold">01</span>
+                    <strong class="text-white font-bold text-xl">Choose a Document Type</strong>
+                    <p class="text-gray-400 ">Select from NDA, Contract, Privacy Policy, and more</p>
+                </div>
+
+                <div
+                    class="flex flex-col gap-6 bg-zinc-900 p-8 rounded-2xl border-2 border-red-950 hover:bg-zinc-800 transition:color duration-300">
+                    <span class="text-red-950 text-6xl font-extrabold">02</span>
+                    <strong class="text-white font-bold text-xl">Answer Simple Questions</strong>
+                    <p class="text-gray-400 ">Our AI asks just what it needs to know about your business</p>
+                </div>
+                <div
+                    class="flex flex-col gap-6 bg-zinc-900 p-8 rounded-2xl border-2 border-red-950 hover:bg-zinc-800 transition:color duration-300">
+                    <span class="text-red-950 text-6xl font-extrabold">03</span>
+                    <strong class="text-white font-bold text-xl">Download or Edit Instantly</strong>
+                    <p class="text-gray-400 ">Get your document ready to use or customize further</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid max-w-7xl mx-auto px-6 gap-8 py-20 2xl:px-0">
+            <h1 class="text-white text-5xl font-extrabold text-center">Document Templates</h1>
+            <p class="text-gray-400 text-lg text-center">Professional, attorney-reviewed templates for every business
+                need</p>
+
+            <div class="grid grid-cols-2 gap-4 mt-8 md:grid-cols-4">
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">🤝</p>
+                    <p class="font-bold text-md text-white">NDA (Mutual)</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">🔐</p>
+                    <p class="font-bold text-md text-white">NDA (Non-Mutual)</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">📋</p>
+                    <p class="font-bold text-md text-white">Privacy Policy</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">⚖️</p>
+                    <p class="font-bold text-md text-white">Terms of Service</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">💼</p>
+                    <p class="font-bold text-md text-white">Freelance Contract</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">👥</p>
+                    <p class="font-bold text-md text-white">Employment Agreement</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">📞</p>
+                    <p class="font-bold text-md text-white">Consulting Agreement</p>
+                </div>
+                <div class="bg-zinc-900 p-8 text-center border-2 border-red-950 rounded-2xl">
+                    <p class="text-5xl mb-4">📄</p>
+                    <p class="font-bold text-md text-white">Service Agreement</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-zinc-900   mx-auto px-6 py-25  lg:px-0 ">
+            <h1 class="text-5xl text-white font-extrabold text-center mb-20">Key Features</h1>
+            <div class="grid gap-4 max-w-7xl mx-auto md:grid-cols-3 md:px-6 2xl:px-0">
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">⚡</p>
+                    <p class="text-white text-lg font-semibold">Attorney-reviewed templates</p>
+                    <p class="text-gray-400 text-md">Created by legal experts for accuracy and compliance</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl text-white font-light">🇺🇸</p>
+                    <p class="text-white text-lg font-semibold">US-business friendly</p>
+                    <p class="text-gray-400 text-md">Compliant with US laws and regulations</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">📖</p>
+                    <p class="text-white text-lg font-semibold">No legal jargon</p>
+                    <p class="text-gray-400 text-md">Clear, plain English everyone can understand</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">✏️</p>
+                    <p class="text-white text-lg font-semibold">Edit & export anytime</p>
+                    <p class="text-gray-400 text-md">Customize documents to your specific needs</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">🔒</p>
+                    <p class="text-white text-lg font-semibold">Secure & private</p>
+                    <p class="text-gray-400 text-md">Your documents are never shared or stored</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-black p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">⚡</p>
+                    <p class="text-white text-lg font-semibold">Instant generation</p>
+                    <p class="text-gray-400 text-md">Get professional documents in under 5 minutes</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="grid  max-w-7xl mx-auto px-6 py-20 gap-6  2xl:px-0">
+            <div class="grid gap-4 md:grid-cols-3">
+                <div class="flex flex-col gap-4 bg-stone-950 p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">🔒</p>
+                    <p class="text-white text-lg font-semibold">Security</p>
+                    <p class="text-gray-400 text-md">Enterprise-grade encryption protects your data</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-stone-950 p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl">🛡️</p>
+                    <p class="text-white text-lg font-semibold">Privacy</p>
+                    <p class="text-gray-400 text-md">Your documents are never shared or retained</p>
+                </div>
+                <div class="flex flex-col gap-4 bg-stone-950 p-10 rounded-2xl border-2 border-red-950">
+                    <p class="text-4xl text-white font-light">🇺🇸</p>
+                    <p class="text-white text-lg font-semibold">US-Focused</p>
+                    <p class="text-gray-400 text-md">Compliant with all US business regulations</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 bg-zinc-900 p-10 rounded-2xl border-2 border-red-950">
+                <p class="text-white text-lg font-semibold">Important Disclaimer</p>
+                <p class="text-gray-400 text-md">This tool does not replace a licensed attorney. Documents generated are
+                    for informational purposes. For complex legal matters or specific legal advice, please consult with
+                    a qualified attorney.</p>
+            </div>
+
+        </section>
+
+        <section class="flex flex-col max-w-7xl mx-auto gap-8 py-20 px-6 2xl:px-0">
+            <h1 class="text-white text-5xl font-extrabold text-center">Simple, Transparent Pricing</h1>
+            <p class="text-gray-400 text-lg text-center">Choose the plan that fits your needs</p>
+            <div class="grid md:grid-cols-3 gap-4 mt-10 ">
+                <div class="flex flex-col gap-6 p-8  bg-zinc-900 border-2 border-red-950 rounded-2xl  ">
+
+                    <h1 class="text-white font-bold text-2xl">Starter</h1>
+                    <p class="text-gray-400">Perfect for getting started</p>
+                    <p class="text-5xl text-white font-extrabold">$0</p>
+
+                    <button class="bg-stone-950 text-white font-semibold py-3 my-4 rounded-2xl border-red-950  ">Get
+                        Started</button>
+
+                    <div class="flex flex-col gap-6">
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">1 document per month</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Watermarked documents</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Basic templates</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Email support</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-6 p-8 -mx-4 bg-zinc-900 border border-red-500 rounded-2xl md:mx-0 md:-my-6">
+                    <span
+                        class="bg-stone-800 inline-flex w-fit text-orange-500 text-sm font-semibold px-3 py-2 rounded-2xl">RECOMMENDED</span>
+                    <h1 class="text-white font-bold text-2xl">Pro</h1>
+                    <p class="text-gray-400">For most small businesses</p>
+                    <p class="text-5xl text-white font-extrabold">$29 <span
+                            class="text-gray-400 text-sm font-bold">/month</span></p>
+
+                    <button
+                        class="bg-red-500 text-white font-semibold py-3 px-4   rounded-2xl border-red-950  ">Start
+                        Free Trial</button>
+
+                    <div class="flex flex-col gap-6">
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Unlimited documents</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">No watermark</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Editable formats</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Priority support</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Advanced templates</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-6 p-8  bg-zinc-900 border-2 border-red-950 rounded-2xl  ">
+
+                    <h1 class="text-white font-bold text-2xl">Business</h1>
+                    <p class="text-gray-400">For growing teams</p>
+                    <p class="text-5xl text-white font-extrabold">$79 <span
+                            class="text-gray-400 text-sm font-bold">/month</span></p>
+
+                    <button
+                        class="bg-stone-950 text-white font-semibold py-3 my-4  rounded-2xl border-red-950  ">Contact
+                        Sales</button>
+
+                    <div class="flex flex-col gap-6">
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Everything in Pro</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Team access</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Client documents</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Priority support</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <span class="text-orange-500 text-xl">✓</span>
+                            <p class="text-white">Custom templates</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="flex flex-col gap-8 max-w-7xl mx-auto px-8 py-15">
+            <h1 class="text-white font-extrabold text-4xl text-center">Frequently Asked Questions</h1>
+            <p class="text-gray-400 text-lg text-center md:text-xl">Everything you need to know</p>
+
+            <div class="flex flex-col gap-4 ">
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    Is this legally binding?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    Can I customize documents?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    Is this US-specific?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    Can I cancel anytime?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    How long does generation take?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+
+                <summary
+                    class="rounded-xl border-2 font-semibold border-red-950 text-white px-6 py-5 md:mx-60 md:text-xl flex justify-between">
+                    Are my documents private?
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+            </div>
+
+        </section>
+
+        <section class=" px-6 bg-linear-to-b from-[#1a0f0e] to-[#130908] flex flex-col gap-12 py-20 md:p-30">
+            <h1 class="font-extrabold text-4xl text-white text-center max-w-2xl md:text-7xl md:mx-auto ">Stop Paying for
+                <span class="text-orange-600">Basic Lawyers.</span>
+            </h1>
+            <p class="text-gray-400 text-md text-center px-4 md:text-lg md:max-w-sm md:mx-auto">Generate professional,
+                compliant legal documents today. No
+                credit card required.</p>
+            <button
+                class="bg-red-500 py-3 w-fit mx-auto px-4 rounded-xl text-white font-semibold md:w-fit md:mx-auto md:px-6 md:text-lg">Generate
+                Your First Document</button>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="max-w-7xl mx-auto px-6 bg-white grid gap-4 ">
+        <div class="pt-12  pb-10 grid gap-4 border-b-2 border-gray-400 md:grid-cols-4 md:px-20">
+            <div class="flex flex-col  gap-4">
+                <div class="flex items-center gap-2 group cursor-pointer">
+                    <img src="./assets/images/docgen-ai-logo.svg" alt="Logo" class="size-7">
+                    <a href="#" class="font-bold text-lg">DocGenAI</a>
+                </div>
+                <p class="text-gray-500">AI Legal Document Generator for US businesses</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-md mb-3">Product</h1>
+                <a href="#" class="text-gray-500">How It Works</a>
+                <a href="#" class="text-gray-500">Documents</a>
+                <a href="#" class="text-gray-500">Pricing</a>
+                <a href="#" class="text-gray-500">FAQ</a>
+
+            </div>
+
+
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-md mb-3">Company</h1>
+                <a href="#" class="text-gray-500">About</a>
+                <a href="#" class="text-gray-500">Blog</a>
+                <a href="#" class="text-gray-500">Contact</a>
+                <a href="#" class="text-gray-500">Careers</a>
+
+            </div>
+
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-md mb-3">Legal</h1>
+                <a href="#" class="text-gray-500">Privacy Policy</a>
+                <a href="#" class="text-gray-500">Terms of Service</a>
+                <a href="#" class="text-gray-500">Disclaimer</a>
+                <a href="#" class="text-gray-500">Contact Us</a>
+
+            </div>
+
+        </div>
+        <div class="pb-3 pt-5 ">
+            <p class="text-gray-500 text-center ">© 2025 DocGenAI. All rights reserved. This tool does not replace a
+                licensed attorney.</p>
+            <p class="text-gray-500 text-center ">Developed by Codescandy • Distributed by ThemeWagon</p>
+
+        </div>
+
+          <button class="bg-red-500 rounded-lg text-white font-semibold py-2 px-4 fixed bottom-1  right-6 2xl:right-30 ">Download
+        Now</button>
+    </footer>
+  
+</body>
+
+</html>
